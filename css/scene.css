@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background-color: green;
+  /* overflow: hidden; */
+}
+
+#bg {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  z-index: 2;
+}
+
+#bgAu {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  /*background-color: yellow;*/
+}
+
+#bgAs {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  /*background-color: blue;*/
+}
+
+.ds {
+  position: absolute;
+  width: 34vh;
+  height: 34vh;
+  background-color: rgba( 178, 178, 178, 0.6 );
+  border-radius: 50%;
+  top: 52vh;
+  left: 12vh;
+  z-index: 1;
+}
+
+.ts {
+  position: absolute;
+  width: 14vh;
+  height: 14vh;
+  background-color: white;
+  border-radius: 50%;
+  top: 62vh;
+  left: 22vh;
+  z-index: 1;
+}
+
+.bg0 {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+}
+
+.bg1 {
+  width: 100%;
+  height: 100%;
+  background-color: #efeeee;
+  display: none;
+}
+
+.icon {
+  position: absolute;
+  width: 16vw;
+  height: 16vw;
+  /* background-color: yellow; */
+  background-image: url( "http://q2.qlogo.cn/headimg_dl?dst_uin=2980644968&spec=5" );
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  top: 17vh;
+  left: 42vw;
+  opacity: 0;
+}
+
+.icon p {
+  position: absolute;
+  font-size: 2vw;
+  color: white;
+  bottom: 0;
+}
+
+.name {
+  position: absolute;
+  width: 60vw;
+  height: 7vw;
+  /* background-color: red; */
+  font-size: 6vw;
+  text-align: center;
+  line-height: 7vw;
+  color: white;
+  font-family: text0;
+  font-weight: 900;
+  top: 54vh;
+  left: 20vw;
+  opacity: 0;
+}
+
+.bg1 p {
+  font-size: 2vw;
+  color: #868686;
+}
+
+.playGame {
+  position: absolute;
+  width: 30vw;
+  height: 30vh;
+  background-color: #dcdcdc;
+  background-image: url( "../image/test1.png" );
+  background-size: auto 100%;
+  border-radius: 2vw;
+  box-shadow: 10px 10px 5px rgba( 0, 0, 0, 0.1 ), -10px -10px 5px rgba( 255, 255, 255, 1 );
+  top: 28vh;
+  left: 17vw;
+}
+
+.playGame div {
+  position: absolute;
+  width: 100%;
+  background-color: rgba( 0, 0, 0, 0.6 );
+  border-radius: 0 0 2vw 2vw;
+  font-size: 4vw;
+  font-weight: 900;
+  color: white;
+  bottom: 0;
+}
+
+.contact {
+  position: absolute;
+  width: 14vw;
+  height: 12vh;
+  background-color: #efeeee;
+  border-radius: 1.5vw;
+  text-align: center;
+  line-height: 12vh;
+  box-shadow: 10px 10px 10px rgba( 0, 0, 0, 0.1 ), -10px -10px 10px rgba( 255, 255, 255, 1 );
+  color: #868686;
+  top: 80vh;
+  left: 8vw;
+}
+
+.plays {
+  position: absolute;
+  width: 24vw;
+  height: 12vh;
+  background-color: #c0c0c0;
+  font-size: 6vh;
+  font-weight: 700;
+  text-align: center;
+  line-height: 12vh;
+  color: white;
+  top: 80vh;
+  left: 56vw;
+  display: none;
+}
