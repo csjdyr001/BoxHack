@@ -1,3 +1,3 @@
 # BoxHack
 
-[WhatDidCaofangkuaiCopyToday]()
+[WhatDidCaofangkuaiCopyToday](WhatDidCaofangkuaiCopyToday.md)
